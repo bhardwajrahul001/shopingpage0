@@ -66,20 +66,26 @@ header {
   height: 30px;
   width: 280px;
   text-decoration: none;
-  padding: 5px;
+  padding: 10px ;
+  margin-top: 2px;
 }
 .search a{
   width: 23px;
   height: 30px;
   color:#000;
   display: inline-block;
+  font-weight: 900;
   font-size: 20px;
   margin: auto;}
+
+.search a:hover{color: rgb(243, 168, 7)}
+
 .logo a {
   color: white;
   font-size: 35px;
   font-weight: 500;
   text-decoration: none;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 
@@ -119,9 +125,7 @@ header {
   79% {
     left: -4320px;
   }
-  82% {
-    left: -5400px;
-  }
+ 
   100% {
     left: 0px;
   }
@@ -150,9 +154,9 @@ header {
 .name {text-align: center; background-color: rgb(240, 197, 6); height: 25px; padding-top: 4px;color: white; margin: 0; }
 .price {float: left;padding-left: 10px;display: block;width: 100%;color: rgb(255, 0, 0);font-weight: 650;}
 .info {padding-left: 10px; color: rgb(243, 168, 7);}
-.img img{width: 210px;height: 200px;margin: 0;padding: 0;border-radius: 12px;transition-duration: 0.8s;  margin: 0 ;}
+.img1 img{width: 210px;height: 200px;margin: 0;padding: 0;transition-duration: 0.8s;  margin: 0 ;}
 .img{overflow: hidden;}
-.container .items:hover .img img { transform: scale(1.1);}
+.container .items:hover .img1 img { transform: scale(1.1);}
 
 
 
@@ -162,8 +166,44 @@ footer {
   background-color: black;
   align-items: center;
   color: white;
+  padding-top: 15px;
 }
+
 footer h1:hover{color: rgb(243, 168, 7); transition-duration: 0.8s;}
+.footer1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  margin-top: 15px;
+}
+.social-media {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.social-media a {
+  font-size: 25px;
+  color: white;
+  margin: 15px;
+  margin-top: 15px;
+  color: white;
+}
+.social-media a:hover  {
+  color: red;
+  transform: translateY(3px);
+}
+.products{float: left; padding-right: 160px;}
+.products h3{ margin-top: 30px; }
+.products ul{list-style: none; padding-top: 10px;}
+.products ul li{padding-top: 10px;}
+.products h3:hover{color: rgb(243, 168, 7); transition: 0.3s;}
+.products ul li:hover{transform: scale(1.05);}
+.products ul li a{color: #fff;text-decoration: none;}
+
+.copyright{ margin-top: 60px; margin-bottom: 20px; display: flex;}
+.copyright h4 {margin: 0 10px;}
+
 
 .clear{clear:both}
 
